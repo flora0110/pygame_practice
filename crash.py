@@ -88,7 +88,7 @@ while True:
     if pygame.sprite.spritecollideany(player,enemies):#把敵人從所有組內消除
         player.kill()
         print("撞車啦")
-    
+
     if player not in all_sprite:
         all_sprite.add(player)
     pygame.display.update()
